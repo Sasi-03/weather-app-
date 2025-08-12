@@ -9,7 +9,7 @@ body {
 }
 .card {
   width: 100%;
-  max-width: 470px;
+  max-width: 440px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   color: #fff;
   margin: 100px auto 0;
@@ -44,8 +44,8 @@ body {
   height: 60px;
   cursor: pointer;
 }
-.search button image {
-  width: 15px;
+.search button img {
+  width: 30px;
 }
 .weather-icon {
   width: 170px;
