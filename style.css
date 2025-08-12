@@ -8,8 +8,9 @@ body {
   background: #222;
 }
 .card {
-  width: 100%;
-  max-width: 390px;
+  width: 90%;
+  max-width: 400px;
+  min-width: 250px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   color: #fff;
   margin: 100px auto 0;
@@ -20,7 +21,7 @@ body {
 }
 .search {
   width: 100%;
-  max-width: 350px;
+  max-width: 400x;
   display: flex;
   align-items: center;
   justify-content: space-between;
