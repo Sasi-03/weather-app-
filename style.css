@@ -20,34 +20,37 @@ body {
   padding: 45px 35px;
 }
 .search {
-  width: 100%;
-  max-width: 400px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
 }
+
 .search input {
   flex: 1;
-  border: 0;
-  outline: 0;
-  border-radius: 30px;
-  padding: 10px 25px;
-  text-align: center;
-  background: #ebfffc;
-  color: #555;
-  margin-right: 16px;
-  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 16px;
 }
+
 .search button {
-  border: 0;
-  outline: 0;
-  border-radius: 70%;
-  width: 40px;
-  height: 40px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
+
 .search button img {
   width: 20px;
+  height: 20px;
 }
 .weather-icon {
   width: 170px;
