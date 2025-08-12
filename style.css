@@ -49,22 +49,6 @@ body {
 .search button img {
   width: 20px;
 }
-@media (max-width: 480px) {
-  .card {
-    margin-top: 30px;
-    padding: 20px 15px;
-  }
-
-  .search input {
-    font-size: 14px;
-    padding: 8px 12px;
-  }
-
-  .search button {
-    width: 35px;
-    height: 35px;
-  }
-}
 .weather-icon {
   width: 170px;
   margin-top: 30px;
